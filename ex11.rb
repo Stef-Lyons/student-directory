@@ -34,10 +34,6 @@ end
 
 
 students = input_students
-puts students.count 
-if students.count == 0
-  puts "No information entered."
-else
 print_header
 print(students)
 print_footer(students)
